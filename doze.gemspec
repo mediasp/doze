@@ -17,6 +17,7 @@ spec = Gem::Specification.new do |s|
   s.add_development_dependency('rake')
   s.add_development_dependency('rack-test')
   s.add_development_dependency('mocha')
+  s.add_development_dependency('rdoc')
 
   s.add_dependency('rack', '~> 1.0')
   s.add_dependency('json', '~> 1.5.5')

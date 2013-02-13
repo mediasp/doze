@@ -1,5 +1,5 @@
 require "test/unit"
-require 'mocha'
+require 'mocha/setup'
 require 'doze/request'
 
 class RawPathInfoTest < Test::Unit::TestCase

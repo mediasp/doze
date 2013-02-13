@@ -7,7 +7,7 @@ begin; gem 'test-unit'; rescue NoMethodError, LoadError; end
 
 require 'test/unit'
 require 'rack/test'
-require 'mocha'
+require 'mocha/setup'
 
 class Doze::MockResource
   include Doze::Resource
