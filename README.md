@@ -9,7 +9,7 @@ RESTful resource-oriented API framework.
 
 # Hello, world
 
-{{{ `ruby`
+``` ruby
 
 require 'doze'
 
@@ -24,6 +24,6 @@ end
 
 run Doze::Application.new(HelloWorld.new)
 
-}}}
+```
 
 Take a look at example/example_app.rb for a more complex version
