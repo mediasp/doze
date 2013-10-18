@@ -23,7 +23,7 @@ END
   s.add_development_dependency('rdoc')
 
   s.add_dependency('rack', '~> 1.0')
-  s.add_dependency('json', '~> 1.5.5')
+  s.add_dependency('json')
 
   s.has_rdoc = true
   s.extra_rdoc_files = ['README.md']
