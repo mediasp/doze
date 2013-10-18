@@ -75,7 +75,7 @@ module Doze::Serialization
             name         = head[NAME_REGEX, 1]
 
             if filename && !filename.empty?
-              body = Tempfile.new(:Doze)
+              body = Tempfile.new('Doze')
               body.binmode if defined? body.binmode
             end
             next
