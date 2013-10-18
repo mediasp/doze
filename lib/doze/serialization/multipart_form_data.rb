@@ -52,7 +52,7 @@ module Doze::Serialization
       return {} if status == nil || status.empty?
       raise "bad content body:\n'#{status}' should == '#{boundary + EOL}'"  unless status == boundary + EOL
       # second argument to Regexp.quote is for KCODE
-      rx = /(?:#{EOL})?#{Regexp.quote(boundary,'n')}(#{EOL}|--)/
+      rx = /(?:#{EOL})?#{Regexp.new(Regexp.escape(boundary), {}, 'n')}(#{EOL}|--)/
       loop {
         head      = nil
         body      = ''
