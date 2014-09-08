@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mediasp/doze.svg?branch=master)](https://travis-ci.org/mediasp/doze)
+[![Gem Version](https://badge.fury.io/rb/doze.svg)](http://badge.fury.io/rb/doze)
 # Doze
 
 RESTful resource-oriented API framework.
