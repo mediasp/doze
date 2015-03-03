@@ -1,4 +1,6 @@
 class Doze::Router::RouteSet
+  include Enumerable
+
   def initialize(&block)
     @routes = []
     @routes_by_name = {}
